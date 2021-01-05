@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner .card {
+    width: 300px;
+    padding: 10px;
+}
+
+.banner .card .card-body {
+    width: 100%;
+}
+
+.banner .card .card-body .box {
+    width: 100%;
+    height: 250px;
+    background-color: #dedede;
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner .card .card-body .box .title {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #fe4200;
+    text-transform: uppercase;
+}
+
+.banner .card .card-body .box .content {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.thank-you{
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+    background-color: #626262;
+    position: absolute;
+    bottom: 15px;
+    padding: 10px 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner .card .card-body .box .content p {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+    font-weight: 400;
+}
+
+.banner .card .card-body .box .content strong {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.banner .card .card-body .description {
+    padding: 10px;
+}
+
+.banner .card .card-body .description strong,
+.banner .card .card-body .description p {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+
+.banner .card .card-body .description ul li {
+    list-style: none;
+}
